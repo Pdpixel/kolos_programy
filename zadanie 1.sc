@@ -16,3 +16,10 @@ g = 10;
 T = 2*%pi*sqrt(l/g);
 disp("Wartość T wynosi:");
 disp(T);
+
+//d
+sum = 0;
+for n = 1:40
+    sum = sum + (n^3) / (n+2);
+end
+disp(sum);
